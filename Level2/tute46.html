@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script tutorial</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>this is heading</h1>
+            <div id="heading">
+                
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, et est provident sapiente ipsam ea error maiores cum unde veniam odit ex.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+       /* //write your js here
+        console.log("hello  world");
+        var a=37;                     //data type int
+        var b="roll no of anurag";   //data type string as we write the content in double coat
+        console.log(a);
+        console.log(b);
+        //console.log(c);
+        console.log("this is dynamic typiing");
+        var y=10;
+        var z=20;
+        console.log("sum of y and z is "+(y+z));
+        console.log("substraction of y and z is "+(y-z));
+        console.log("multiplication of y and z is "+(y*z));
+        console.log("division of y and z is "+(y/z));  */
+
+        var string="Anurag ";
+        var course="Btech";
+        var place="JAipur ";
+
+        var temp=`${string} is pursuing ${course} from ${place}`;
+        console.log(temp);
+       // console.log(string + course + place );
+       var size=course.length;
+       console.log(`length of course is ${size}`);
+
+       document.getElementById('heading').innerHTML ='<h3>this is an h3 heading</h3>'
+
+    </script>
+</body>
+</html>
